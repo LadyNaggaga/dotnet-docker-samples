@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:1.0.0-preview2-sdk
-WORKDIR /app
+WORKDIR /dotnetapp
 
 # copy project.json and restore as distinct layers
 COPY project.json .
